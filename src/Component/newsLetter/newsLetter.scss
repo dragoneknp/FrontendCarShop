@@ -1,0 +1,158 @@
+@import "../../variables.scss";
+.newsLetter{
+    background: #E5E5E5;
+    padding: 120px 0 100px 0;
+}
+
+
+.newsLetter{
+    &__body{
+        padding: 0 200px 0 200px;
+    }
+    text-align: center;
+    &__header{
+        font-size: 48px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: 0.005em;
+        color: #11142D;
+        font-family: $font-bold;
+    }
+    &__description{
+        font-size: 16px;
+        line-height: 120%;
+        letter-spacing: 0.005em;
+        color: #92929D;
+        margin: 24px 0 56px 0;
+    }
+}
+.newsLetter__form{
+    text-align: left;
+}
+
+.newsLetter-form{
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    &__inputs{
+        &:first-child{
+            margin: 0 16px 0 0;
+        }
+        
+    }
+    &__label{
+        font-size: 16px;
+        line-height: 120%;
+        letter-spacing: 0.005em;
+        color: #11142D;   
+        font-family: $font-semiBold;   
+        margin: 0 0 20px 0; 
+    }
+    &__input{   
+        width: 296px;
+        font-size: 16px;
+        line-height: 120%;
+        letter-spacing: 0.005em;        
+        color: #11142D;       
+        padding: 16px 10px 21px 16px;
+        border: 1px solid #ECF2FE;
+        box-sizing: border-box;
+        border-radius: 8px;
+        transition: border 0.4s ease;
+        &:focus{
+            border: 1px solid #5178c5;
+        }
+
+    }
+    &__button{
+        padding: 19px 26px;
+        margin: 0 0 0 16px;
+        height: 56px;
+        &:focus{
+            border: 1px solid #5178c5;
+        }
+    }
+}
+@media screen and (max-width: 991px) {
+    /* стили для больших планшетов - начало */
+    .newsLetter{
+        
+        padding: 80px 20px 60px 20px;
+    }
+    .newsLetter{
+        &__body{
+            padding: 0;
+        }
+        text-align: center;
+        
+    }
+    
+    
+    
+    }
+    
+    @media screen and (max-width: 767px) {
+    /* стили для средних планшетов - начало */
+    .newsLetter{
+        
+        padding: 80px 0 80px 0;
+    }
+    
+    
+    .newsLetter{
+        &__body{
+            padding: 0 50px 0 50px;
+        }
+        &__description{
+            margin: 24px 0 40px 0;
+        }
+    }
+    
+    
+    .newsLetter-form{
+        
+        display: flex;
+        
+        flex-direction: column;
+        align-items: center;
+        &__inputs{
+            &:first-child{
+                margin: 0 0 20px 0;
+            }
+            width: 100%;
+            margin: 0 0 20px 0;
+            
+            
+        }
+        &__label{
+            font-size: 16px;
+            line-height: 120%;
+            letter-spacing: 0.005em;
+            color: #11142D;   
+            font-family: $font-semiBold;   
+            margin: 0 0 20px 0; 
+        }
+        &__input{   
+            width: 100%;
+        }
+        &__button{
+            padding: 19px 26px;
+            margin: 0 0 0 0;
+            height: 56px;
+        }
+    }
+    }
+    
+    @media screen and (max-width: 479px) {
+    /* стили для телефонов - начало */
+    .newsLetter{
+        &__body{
+            padding: 0 0 0 0;
+        }
+        &__header{
+            font-size: 40px;
+        }
+        
+    }
+    }

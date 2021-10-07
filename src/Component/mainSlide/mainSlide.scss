@@ -1,0 +1,58 @@
+@import "../../variables.scss";
+.mainSlide{
+    // background: linear-gradient(89.96deg, #000000 0.04%, rgba(255, 255, 255, 0) 99.97%);
+    background: url(./teslaModel3.png) center center no-repeat; 
+    background-size: cover;
+    padding: 20px 0 0 0;
+    transition: 0.3s ease;
+    @include adaptiv-value("padding-bottom", 120, 100);
+}
+.mainSlide-body__productOwner{
+    margin: 0 0 16px 0;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+}
+.mainSlide-body__label{
+    font-size: 62px;
+    line-height: 120%;
+    font-family: $font-bold;
+    letter-spacing: 0.003em;
+    margin: 0 0 60px 0;
+}
+.mainSlide-body-specifications__header{
+    font-size: 16px;
+    line-height: 120%;
+    font-family: $font-bold;
+    margin: 0 0 20px 0;
+    letter-spacing: 0.005em;
+}
+.mainSlide-body-specifications{
+    display: flex;
+    
+}
+.mainSlide-body-specifications__spec{
+    font-size: 16px;
+    line-height: 120%;
+    font-family: $font-bold;
+    letter-spacing: 0.005em;
+    color: #FA3C45;
+}
+.mainSlide-body-specifications__item{
+    margin: 0 28px;
+    &:first-child{
+        margin: 0 28px 0 0;
+    }
+    &:last-child{
+        margin: 0 0 0 28px;
+    }
+    
+}
+.mainSlide-body__buyNowButton{
+    
+    width: 128px;
+    padding: 18px 24px;
+    
+    margin: 96px 0 0 0;
+    
+}

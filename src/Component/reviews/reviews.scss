@@ -1,0 +1,118 @@
+@import "../../variables.scss";
+.reviews{
+    padding: 0 0 200px 0;
+    background: #E5E5E5;
+}
+.reviews__container {
+    display: flex;
+    flex-direction: column;
+}
+.reviews-header{
+    text-align: center;
+    &__label{
+        font-size: 48px;
+        line-height: 120%;
+        letter-spacing: 0.005em;
+        color: #2E2E2E;
+        font-family: $font-bold;
+    }
+    &__description{
+        font-size: 16px;
+        line-height: 120%;
+        letter-spacing: 0.005em;
+        color: #808080;
+        margin: 32px 0 56px 0;
+    }
+}
+.reviews__body{
+    display: flex;
+}
+.reviews__picture{
+    background: url(./teslaModelS.jpeg) center center no-repeat;
+    background-size: cover;
+    flex: 0 0 35%;
+    height: 448px;
+}
+.reviews__description{
+    flex: 1 1 auto;
+    padding: 84px 92px 96px 92px;
+    background: #fff;
+}
+.reviews-description{
+    text-align: center;
+    &__label{
+        font-size: 31px;
+        line-height: 120%;
+        letter-spacing: 0.005em;
+        color: #11142D;
+        font-family: $font-bold;
+    }
+    &__comment{
+        margin: 32px 0 40px 0;
+        font-size: 16px;
+        line-height: 120%;
+        letter-spacing: 0.005em;
+        color: #92929D;
+    }
+    &-author{
+        &__name{
+            font-size: 16px;
+            line-height: 120%;
+            letter-spacing: 0.005em;
+            color: #FA3C45;
+            font-family: $font-bold;
+            margin: 0 0 8px 0;
+        }
+        &__post{
+            font-size: 14px;
+            line-height: 130%;
+            letter-spacing: 0.008em;
+            color: #92929D;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    /* стили для больших планшетов - начало */
+    .reviews{
+        padding: 0 0 100px 0;
+    }
+    .reviews__container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .reviews__body{
+        flex-direction: column;
+    }
+    .reviews__picture{
+        flex: 1 1 auto;
+        height: 300px;
+    }
+    .reviews__description{
+        margin: 16px 0 0 0;
+        padding: 84px 92px 96px 92px;   
+    }
+    
+    }
+    
+    @media screen and (max-width: 767px) {
+    /* стили для средних планшетов - начало */
+    
+    }
+    
+    @media screen and (max-width: 479px) {
+    /* стили для телефонов - начало */
+    .reviews__description{
+        margin: 16px 0 0 0;
+        padding: 10px 5px 10px 5px;   
+    }
+    .reviews-header{
+        text-align: center;
+        &__label{
+            font-size: 40px;
+            
+        }
+       
+    }
+    }

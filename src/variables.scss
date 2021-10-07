@@ -1,0 +1,47 @@
+@import "./fonts/fonts.scss";
+$maxWidthContainer: 1280px;
+$maxWidth: 1920px;
+$maxHeightContainer: 900px;
+$adaptivWidth: 960;
+$font-bold: Mulish-Bold;
+$font-regular: Mulish-Regular;
+$font-semiBold: Mulish-SemiBold;
+$mainColor: #fff;
+
+.redBtn{
+    text-align: center;
+    background: #FA3C45;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 120%;
+    font-family: $font-bold;
+
+    letter-spacing: 0.005em;
+    transition: background 0.4s ease;
+    letter-spacing: 0.005em;
+    border: 1px solid #FA3C45;
+    &:hover{
+        background: #a52e34;
+    }
+}
+@mixin adaptiv-value($property, $startSize, $minSize){
+    $addSize: $startSize - $minSize;
+    #{$property}: calc(#{$minSize + px} + #{$addSize} * (100vw - 320px) / #{$adaptivWidth});
+}
+/* Стили для десктопа - начало */
+
+@media screen and (max-width: 991px) {
+    /* стили для больших планшетов - начало */
+    
+    }
+    
+    @media screen and (max-width: 767px) {
+    /* стили для средних планшетов - начало */
+    
+    }
+    
+    @media screen and (max-width: 479px) {
+    /* стили для телефонов - начало */
+    
+    }
