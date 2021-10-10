@@ -11,6 +11,7 @@ import NewItems from '../newItems/newItems';
 import Reviews from '../reviews/reviews';
 import DownloadApp from '../downloadApp/downloadApp';
 import NewsLetter from '../newsLetter/newsLetter';
+import { connect } from "react-redux";
 const Hero = () => {return (
     <div className="hero__wrapper">
         <Header/>
@@ -26,4 +27,4 @@ const Hero = () => {return (
         <Footer/>
     </div>
 )};
-export default Hero;
+export default connect()(Hero);

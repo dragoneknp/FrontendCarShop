@@ -2,11 +2,27 @@ import React from 'react';
 import './collectionSlide.scss';
 import AboutUs from '../aboutUs/aboutUs';
 import CollectionSlider from '../collectionSlider/collectionSlider';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.css";
+import SwiperCore, {
+  Navigation,Pagination,Mousewheel,Keyboard
+} from 'swiper';
+SwiperCore.use([Navigation,Pagination,Mousewheel,Keyboard]);
 const slidesInfo = {
     firstSlide: {
         productOwner: "Esemka Car",
         name: "Model SX",
         milleage: 2000,
+        engineType: "electric",
+        gearBox: "automatic",
+
+    }
+}
+const slidesInfo1 = {
+    firstSlide: {
+        productOwner: "Esemka Car",
+        name: "Model SV",
+        milleage: 1500,
         engineType: "electric",
         gearBox: "automatic",
 
@@ -27,7 +43,17 @@ const CollectionSlide = () => {
 
                             </div>    
                         </div>
-                    <CollectionSlider slidesInfo={slidesInfo}/>
+                        <Swiper
+                        cssMode={true}
+                        navigation={{nextEl: ".switcher__next", prevEl: ".switcher__prev"}} 
+                        mousewheel={true} 
+                        keyboard={true}
+                        loop={true}
+                        className="CollectionSwiper">
+                            <SwiperSlide><CollectionSlider slidesInfo={slidesInfo}/></SwiperSlide>
+                            <SwiperSlide><CollectionSlider slidesInfo={slidesInfo1}/></SwiperSlide>
+                        </Swiper>
+                    
                     <AboutUs/>
                 </div>
             </div>

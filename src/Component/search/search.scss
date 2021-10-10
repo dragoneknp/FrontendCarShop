@@ -5,7 +5,7 @@
 }
 .search-body__select{
     position: relative;
-    flex: 1 1 auto;
+    flex: 0 1 40%;
     display: flex;
     align-items: center;
     padding: 14px 24px 14px 24px;
@@ -19,14 +19,60 @@
     box-sizing: border-box;
     border-radius: 8px;
     margin: 0 40px;
-    &::after{
+    transition: 0.4s ease;
+    &.closed::after{
         content: url(./arrowDown.svg);
         width: 24px;
         height: 24px;
         position: absolute;
         right: 12px;
+        cursor: pointer;
+        transition: 0.4s ease;
+    }
+    &.opened::after{
+        content: url(./arrowDown.svg);
+        transform: rotate(180deg);
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        right: 12px;
+        cursor: pointer;
+        transition: 0.4s ease;  
     }
 }
+.search-body__label{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    
+}
+.search-menu{
+    padding: 14px 24px 14px 24px;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    margin: 5px 0 0 0;
+    background: #000;
+    color: #fff;
+    transition: 0.3s ease;
+    font-family: $font-regular;
+    z-index: 7;
+    &.opened{
+        opacity: 1;
+        visibility: visible;
+        transition: 0.3s ease;
+    }
+    &.closed{
+        transition: 0.3s ease;
+        opacity: 0;
+        visibility: hidden;
+    }
+    &__item {
+        cursor: pointer;
+    }
+}
+
 .search-body__searchBtn{
     margin: 0 40px;
     width: 128px;
@@ -35,6 +81,7 @@
 .search-body{
     display: flex;
     margin: 0 -40px;
+    justify-content: center;
 }
 @media (max-width: 1200px){
     
@@ -58,7 +105,7 @@
     @media screen and (max-width: 767px) {
     /* стили для средних планшетов - начало */
     .search-body__select{
-        
+        width: 100%;
         padding: 14px 24px 14px 24px;
         margin: 20px 0;
         &:first-child{
@@ -76,6 +123,8 @@
     }
     .search-body{
         display: flex;
+        
+        align-items: center;
         flex-direction: column;
         margin: 20px 0;
     }

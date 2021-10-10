@@ -1,10 +1,7 @@
 @import "../../variables.scss";
 .mainSlide{
-    // background: linear-gradient(89.96deg, #000000 0.04%, rgba(255, 255, 255, 0) 99.97%);
-    background: url(./teslaModel3.png) center center no-repeat; 
-    background-size: cover;
     padding: 20px 0 0 0;
-    transition: 0.3s ease;
+    transition: 0.4s ease;
     @include adaptiv-value("padding-bottom", 120, 100);
 }
 .mainSlide-body__productOwner{
