@@ -1,7 +1,7 @@
 import React from 'react';
 import './mainSlide.scss';
 import { connect } from 'react-redux';
-const MainSlide = (props) => {
+const MainSlide = (props: any) => {
     
     return (
         <div className="mainSlide" style={{background: `url(${props.linkToPicture}) center center / cover no-repeat`}}>
@@ -43,7 +43,7 @@ const MainSlide = (props) => {
             </div>
         </div>
     )};
-function mapStateToProps(state){
+function mapStateToProps(state: any){
     return {
         model: state.findCar.model,
         productOwner: state.findCar.productOwner,

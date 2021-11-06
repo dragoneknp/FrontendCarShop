@@ -1,6 +1,7 @@
 @import "../../variables.scss";
 .header{
-    background: rgb(36, 35, 35);
+    // background: rgb(36, 35, 35);
+    background: #C5010A;
     padding: 20px 0 20px 0;
     position: sticky;
     top: 0;
@@ -181,7 +182,7 @@
         left: 0;
         height: 60px;
         z-index: 2;
-        background: rgb(36, 35, 35);
+        background: #C5010A;
         
     }
     .menu__list{

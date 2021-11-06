@@ -1,17 +1,16 @@
 @import "../../variables.scss";
 .collectionSlide-body-slider__item_big{
-    // background: #C5010A;
-    background: url(../../assets/img/teslaModelX.jpg) center center no-repeat; 
-    background-size: cover;
-    // opacity: 0.8;
+    
+    // background: url(app/public/images/teslaModelX.jpg) center center / cover no-repeat; 
     height: 400px;
     flex: 0 0 calc(2/3*100% - (1/3)*16px); // 820px
     padding: 180px 40px 40px 40px;
     
 }
+
 .collectionSlide-body-slider__item_small{
-    background: url(../../assets/img/teslaModel3.png) center center no-repeat; 
-    background-size: cover;
+    // background: url(app/public/images/teslaModelX.jpg) center center / cover no-repeat; 
+    
     height: 400px;
     flex: 0 0 calc(1/3*100% - (2/3)*16px);
     

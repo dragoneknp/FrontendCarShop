@@ -1,0 +1,82 @@
+@import "../../variables.scss";
+.carCard{
+    display: flex;
+}
+.carCard__picture{
+    flex: 0 1 33%;
+    height: 200px;
+    
+}
+.carCard__info{
+    flex: 0 1 66%;
+}
+.exploreMainContent-body__resultsHeader{
+    margin: 0 0 64px 0;
+}
+.carCard-info__characteristics{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 5px;
+}
+.carCard-info__label{
+    font-size: 12px;
+    line-height: 110%;
+    letter-spacing: 0.008em;
+    color: #92929D;
+    font-family: $font-bold;
+}
+.carCard-info__characteristics{
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #000000;
+    font-family: $font-bold;
+}
+.carCard__picture{
+    margin: 0 32px 0 0;
+}
+.carCard{
+    &:not(:first-child){
+        border-top: 1px solid #E1E1E1;
+    }
+    padding: 20px 0 20px 0;
+    ;
+
+}
+.carCard-info__brand{
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FA3C45;
+    font-family: $font-bold;
+}
+.carCard-info__model{
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    font-family: $font-bold;
+    margin: 8px 0 16px 0;
+}
+.carCard-info__price{
+    font-size: 39px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FA3C45;
+    font-family: $font-bold;
+}
+.carCard-info{
+    display: flex;
+    // justify-content: space-between;
+    flex-direction: column;
+}
+.carCard-info__details{
+    padding: 12px 24px;
+}
+.carCard-info__footer{
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}

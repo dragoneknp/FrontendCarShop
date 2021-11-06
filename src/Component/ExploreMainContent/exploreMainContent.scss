@@ -1,0 +1,44 @@
+@import "../../variables.scss";
+.exploreMainContent{
+    padding: 0 0 128px 0;
+}
+.exploreMainContent__container{
+    display: flex;
+    flex-direction: column;
+}
+.exploreMainContent__input{
+    border: 1px solid #9A9AB0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 16px 24px;
+    flex: 0 1 25%;
+    margin: 0 24px 0 0;
+}
+.exploreMainContent__button{
+    padding: 18px 24px;
+}
+.exploreMainContent__search{
+    display: flex;
+    margin: 0 0 64px 0;
+}
+
+.exploreMainContent__body{
+    color: #000;
+}
+.exploreMainContent__header{
+    margin: 0 0 40px 0;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+.exploreMainContent-body{
+    display: flex;
+    justify-content: space-between;
+}
+.exploreMainContent-body__content{
+    flex: 0 1 66%;
+}
+.ExploreMainContent-body__aside{
+    flex: 0 1 33%;
+}

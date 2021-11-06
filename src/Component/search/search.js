@@ -3,14 +3,16 @@ import './search.scss';
 import getCarSelectData from '../../store/actions/search/searchAction';
 import { findCar } from '../../store/actions/findCar/findCarAction';
 import { connect } from 'react-redux';
-import Loader from '../loader/loader';
+import Loader from '../Loader/loader';
 const Search = (props) => {
     const [modelPopupVisibility, changeModelPopupVisibility] = useState(false);
     const [brandPopupVisibility, changeBrandPopupVisibility] = useState(false);
     const [currentBrand, changeCurrentBrand] = useState("");
     const [currentModel, changeCurrentModel] = useState("");
+    
     useEffect(() => {
         props.getCarSelectData();
+        // eslint-disable-next-line
     }, []);
     
     return (
@@ -27,8 +29,10 @@ const Search = (props) => {
                      <div className={`search-body__select ${brandPopupVisibility ? "opened" : "closed"}`}  onClick={(event) => event.target.classList.contains("search-menu") ? null : changeBrandPopupVisibility(!brandPopupVisibility)}>
                         <div className="search-body__label">{currentBrand ? currentBrand : "Select Brand"}</div>
                         <ul className={`search-menu ${brandPopupVisibility ? "opened" : "closed"}`}>
-                            {props.brands.map((brand) => <li key={brand} className="search-menu__item" onClick={(event) => {changeCurrentBrand(event.target.textContent);changeCurrentModel("")}}>{brand}</li>)}
-                            
+                            {props.brands 
+                            ? props.brands.map((brand)=> <li key={brand} className="search-menu__item" onClick={(event) => {changeCurrentBrand(event.target.textContent);changeCurrentModel("")}}>{brand}</li>)
+                            : <div>No brands are availbable now</div>
+                            }
                         </ul>
                     </div>
                     <div className={`search-body__select ${modelPopupVisibility ? "opened" : "closed"}`} onClick={(event) => event.target.classList.contains("search-menu") ? null : changeModelPopupVisibility(!modelPopupVisibility)}>

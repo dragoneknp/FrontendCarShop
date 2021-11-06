@@ -1,0 +1,42 @@
+.exploreSearch{
+    padding: 100px 0px;
+}
+.exploreSearch__filter{
+    border: 1px solid #9A9AB0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #000;
+    padding: 18px 24px 18px 24px;
+    position: relative;
+    transition: 0.4s ease;
+    &.closed::after{
+        position: absolute;
+        content: url(./arrowDown.svg);
+        height: 24px;
+        width: 24px;
+        transition: 0.4s ease;
+        top: 50%;
+        transform: translate(0, -50%);
+        right: 24px;
+    }
+    &.opened::after{
+        position: absolute;
+        content: url(./arrowDown.svg);
+        height: 24px;
+        width: 24px;
+        top: 50%;
+        
+        transform: translate(0, -50%) rotate(180deg);
+        transition: 0.4s ease;
+        right: 24px;
+    }
+    
+}
+.exploreSearch__filters{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 16px;
+    row-gap: 16px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-flow: row;
+}

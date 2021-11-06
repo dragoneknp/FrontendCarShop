@@ -2,6 +2,7 @@ import React from 'react';
 import './header.scss';
 import avatar from "./avatar.svg";
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 const Header = () => {
     const [menuActive, changeActive] = useState(false);
     const [popupOpened, changeOpened] = useState(false);
@@ -24,21 +25,21 @@ const Header = () => {
                             <span></span>
                         </div>
                         <nav className={`menu ${menuActive ? "_active" : "_disabled"}`}>
-                            <ul className="menu__list" onClick={menuActive ? changeBodyOverflowAndActive : null}>
+                            <ul className="menu__list" onClick={menuActive ? changeBodyOverflowAndActive : undefined}>
                                 <li className="menu__item">
-                                    <a href="#home" className="menu__link">Home</a>
+                                    <Link to="/home" className="menu__link">Home</Link>
                                 </li>
                                 <li className="menu__item">
-                                    <a href="#explore" className="menu__link">Explore</a>
+                                    <Link to="/explore" className="menu__link">Explore</Link>
                                 </li>
                                 <li className="menu__item">
-                                    <a href="#showroom" className="menu__link">Showroom</a>
+                                    <Link to="/showroom" className="menu__link">Showroom</Link>
                                 </li>
                                 <li className="menu__item">
-                                    <a href="#creditSimulation" className="menu__link">Credit simulation</a>
+                                    <Link to="/creditSimulation" className="menu__link">Credit simulation</Link>
                                 </li>
                                 <li className="menu__item">
-                                    <a href="#contactUs" className="menu__link">Contact us</a>
+                                    <Link to="/contactUs" className="menu__link">Contact us</Link>
                                 </li>
                                 <li className={`menu__item arrow ${popupOpened ? "_opened" : "_closed"}`} onClick={() => changeOpened(!popupOpened)}>
                                     <a href="#page" className="menu__link">Page</a>

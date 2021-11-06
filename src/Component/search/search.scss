@@ -77,6 +77,10 @@
     margin: 0 40px;
     width: 128px;
     padding: 18px 24px;
+    transition: 0.3s ease;
+    &:active{
+        transform: scale(1.05);
+    }
 }
 .search-body{
     display: flex;
