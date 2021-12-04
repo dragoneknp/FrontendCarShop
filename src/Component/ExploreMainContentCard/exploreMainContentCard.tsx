@@ -1,6 +1,6 @@
-import React from 'react';
-import './exploreMainContentCard.scss';
-interface ICarCard{
+import React from "react";
+import "./exploreMainContentCard.scss";
+interface ICarCard {
     brand: string | null;
     model: string | null;
     HP: number | null;
@@ -9,28 +9,39 @@ interface ICarCard{
     picture: string | undefined;
     price: number | undefined;
 }
-const ExploreMainContentCard = ({brand, model, HP, typeOfFuel, transmission, picture, price}: ICarCard) => {
+const ExploreMainContentCard = ({
+    brand,
+    model,
+    HP,
+    typeOfFuel,
+    transmission,
+    picture,
+    price,
+}: ICarCard) => {
     return (
         <div className="carCard">
-                <img src={picture} alt="carIcon" className="carCard__picture" />
-                <div className="carCard__info carCard-info">
-                    <div className="carCard-info__brand">{brand}</div>
-                    <div className="carCard-info__model">{model}</div>
-                    <div className="carCard-info__characteristics">
-                        <div className="carCard-info__label">Engine</div>
-                        <div className="carCard-info__label">Type Of Fuel</div>
-                        <div className="carCard-info__label">Transmisson</div>
-                        <div className="carCard-info__HP">{HP}</div>
-                        <div className="carCard-info__typeOfFuel">{typeOfFuel}</div>
-                        <div className="carCard-info__transmisson">{transmission}</div>
+            <img src={picture} alt="carIcon" className="carCard__picture" />
+            <div className="carCard__info carCard-info">
+                <div className="carCard-info__brand">{brand}</div>
+                <div className="carCard-info__model">{model}</div>
+                <div className="carCard-info__characteristics">
+                    <div className="carCard-info__label">Engine</div>
+                    <div className="carCard-info__label">Type Of Fuel</div>
+                    <div className="carCard-info__label">Transmisson</div>
+                    <div className="carCard-info__HP">{HP}</div>
+                    <div className="carCard-info__typeOfFuel">{typeOfFuel}</div>
+                    <div className="carCard-info__transmisson">
+                        {transmission}
                     </div>
-                    <div className="carCard-info__footer">
-                        <div className="carCard-info__price">{`$${price}`}</div>
-                        <button className="carCard-info__details redBtn">Details</button>
-                    </div>
-                    
+                </div>
+                <div className="carCard-info__footer">
+                    <div className="carCard-info__price">{`$${price}`}</div>
+                    <button className="carCard-info__details redBtn">
+                        Details
+                    </button>
                 </div>
             </div>
-    )
+        </div>
+    );
 };
 export default ExploreMainContentCard;
