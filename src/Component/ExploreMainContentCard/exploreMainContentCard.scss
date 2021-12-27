@@ -78,3 +78,55 @@
     justify-content: space-between;
     flex-direction: row;
 }
+@media screen and (max-width: 991px) {
+    .carCard__picture {
+        flex: 0 1 50%;
+        margin: 0 0 16px 0;
+    }
+    .carCard__info {
+        flex: 0 1 50%;
+    }
+    .carCard {
+        transition: 0.3s ease;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .carCard__picture {
+        flex: 0 1 50%;
+        margin: 0 0 16px 0;
+    }
+    .carCard__info {
+        flex: 0 1 50%;
+    }
+    .carCard {
+        transition: 0.3s ease;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .carCard__picture {
+        flex: 0 1 50%;
+        max-height: 200px;
+        margin: 0 0 16px 0;
+    }
+    .carCard__info {
+        flex: 0 1 50%;
+    }
+    .carCard {
+        transition: 0.3s ease;
+        display: flex;
+        flex-direction: column;
+    }
+    .carCard-info__price {
+        font-size: 28px;
+        line-height: 120%;
+        letter-spacing: 0.005em;
+        color: #fa3c45;
+        font-family: $font-bold;
+    }
+}

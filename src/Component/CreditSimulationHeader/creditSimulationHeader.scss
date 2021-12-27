@@ -1,0 +1,25 @@
+.creditSimulationHeader {
+    padding: 100px 0px;
+    text-align: center;
+    background: #c5010a;
+}
+.creditSimulationHeader__title {
+    font-size: 62px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.003em;
+}
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 767px) {
+    .creditSimulationHeader__title {
+        font-size: 46px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: 0.003em;
+    }
+}
+
+@media screen and (max-width: 479px) {
+}

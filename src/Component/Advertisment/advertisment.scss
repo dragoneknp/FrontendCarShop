@@ -1,0 +1,61 @@
+@import "../../variables.scss";
+.advertisment {
+    background: #c5010a;
+    border-radius: 8px;
+    height: 560px;
+}
+.advertisment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__header {
+        font-family: $font-bold;
+        font-size: 39px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: 0.005em;
+        color: #ffffff;
+        margin: 0 0 24px 0;
+    }
+    &__description {
+        font-size: 24px;
+        line-height: 120%;
+        font-family: $font-regular;
+        text-align: center;
+        letter-spacing: 0.005em;
+        color: #ffffff;
+        margin: 0 0 40px 0;
+    }
+    &__detailsButton {
+        border: 2px solid #ffffff;
+        border-radius: 8px;
+        padding: 12px 24px;
+        background: #c5010a;
+        color: #fff;
+        font-size: 16px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: 0.005em;
+        font-family: $font-bold;
+        transition: 0.4s ease;
+        &:hover {
+            background: #a52e34;
+            transition: 0.4s ease;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .advertisment {
+        background: #c5010a;
+        border-radius: 8px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 479px) {
+}

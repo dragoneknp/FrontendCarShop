@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./exploreMainContentCard.scss";
 interface ICarCard {
     brand: string | null;
@@ -36,9 +37,11 @@ const ExploreMainContentCard = ({
                 </div>
                 <div className="carCard-info__footer">
                     <div className="carCard-info__price">{`$${price}`}</div>
-                    <button className="carCard-info__details redBtn">
-                        Details
-                    </button>
+                    <Link to="/details">
+                        <button className="carCard-info__details redBtn">
+                            Details
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

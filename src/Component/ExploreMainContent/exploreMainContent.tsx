@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./exploreMainContent.scss";
 import MakeExploreMainContentCards from "../ExploreMainContentCards/ExploreMainContentCards";
+import Advertisment from "../Advertisment/advertisment";
 const data = [
     {
         brand: "Tesla",
@@ -206,7 +207,7 @@ const ExploreMainContent: React.FC = () => {
                             />
                         </div>
                     </div>
-                    <aside className="ExploreMainContent-body__aside">
+                    <aside className="exploreMainContent-body__aside">
                         <div className="exploreMainContent-body__sorts exploreMainContent-body-sorts">
                             <div className="exploreMainContent-body-sorts__label">
                                 Sort By
@@ -217,17 +218,8 @@ const ExploreMainContent: React.FC = () => {
                             <div className="exploreMainContent-body-sorts__viewWithOneBlock"></div>
                             <div className="exploreMainContent-body-sorts__viewWithTwoBlocks"></div>
                         </div>
-                        <div className="exploreMainContent-body__advertisment exploreMainContent-body-advertisment">
-                            <div className="exploreMainContent-body-advertisment__header">
-                                Special Offer for Today
-                            </div>
-                            <div className="exploreMainContent-body-advertisment__description">
-                                10% Off for New Tesla Model S
-                            </div>
-                            <button className="exploreMainContent-body-advertisment__detailsButton">
-                                Details
-                            </button>
-                        </div>
+                        <Advertisment />
+
                         <div className="exploreMainContent-body__contactUs exploreMainContent-body-contactUs">
                             <div className="exploreMainContent-body-contactUs__header">
                                 Contact Us

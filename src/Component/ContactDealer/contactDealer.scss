@@ -1,0 +1,28 @@
+@import "../../variables.scss";
+.contactDealer {
+    padding: 48px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+.contactDealer__input {
+    width: 100%;
+    border: 1px solid #fa3c45;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 20px 16px;
+    margin: 12px 0 12px 0;
+}
+.contactDealer__header {
+    font-size: 39px;
+    line-height: 120%;
+    font-family: $font-bold;
+    letter-spacing: 0.005em;
+    color: #11142d;
+    margin: 0 0 24px 0;
+}
+.contactDealer__input[placeholder="Your message"] {
+    height: 90px;
+}
+.contactDealer__button {
+    padding: 12px 24px;
+}

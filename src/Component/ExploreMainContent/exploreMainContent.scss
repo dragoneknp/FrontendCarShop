@@ -40,7 +40,7 @@
 .exploreMainContent-body__content {
     flex: 0 1 66%;
 }
-.ExploreMainContent-body__aside {
+.exploreMainContent-body__aside {
     flex: 0 1 33%;
     margin: 0 0 0 40px;
     display: flex;
@@ -59,6 +59,7 @@
 .exploreMainContent-body__sorts {
     display: flex;
     justify-content: space-between;
+    margin: 0 0 32px 0;
 }
 .exploreMainContent-body__advertisment {
     background: #c5010a;
@@ -186,4 +187,83 @@
 }
 .exploreMainContent__pagination {
     margin: 20px 0 5px 0;
+}
+
+@media screen and (max-width: 991px) {
+    /* стили для больших планшетов - начало */
+    .exploreMainContent-body__content {
+        flex: 0 1 66%;
+    }
+    .exploreMainContent-body__aside {
+        flex: 0 1 33%;
+        margin: 0 0 0 32px;
+        display: flex;
+        flex-direction: column;
+    }
+    .exploreMainContent-body__advertisment {
+        background: #c5010a;
+        border-radius: 8px;
+        height: 400px;
+        margin: 32px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ExploreMainContent-body__aside {
+        flex: 0 1 40%;
+        margin: 0 0 0 32px;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+    .exploreMainContent-body__content {
+        flex: 0 1 100%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .exploreMainContent-body__aside {
+        flex: 0 1 40%;
+        margin: 0 0 0 32px;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+    .exploreMainContent-body__content {
+        flex: 0 1 100%;
+    }
+    .exploreMainContent-body {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .exploreMainContent__input {
+        border: 1px solid #9a9ab0;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 16px 24px;
+        flex: 0 1 25%;
+        margin: 0 0 16px 0;
+    }
+    .exploreMainContent__search {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 64px 0;
+    }
+    .exploreMainContent__pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 0 10px 0 10px;
+    }
+    .arrowLeft {
+        margin: 0 4px 0 0;
+        cursor: pointer;
+    }
+    .arrowRight {
+        margin: 0 0 0 4px;
+        cursor: pointer;
+        transform: rotate(180deg);
+    }
 }
