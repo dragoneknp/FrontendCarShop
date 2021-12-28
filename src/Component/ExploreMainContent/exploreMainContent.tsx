@@ -2,137 +2,23 @@ import React, { useState } from "react";
 import "./exploreMainContent.scss";
 import MakeExploreMainContentCards from "../ExploreMainContentCards/ExploreMainContentCards";
 import Advertisment from "../Advertisment/advertisment";
-const data = [
-    {
-        brand: "Tesla",
-        model: "Model 3",
-        HP: 555,
-        typeOfFuel: "energy",
-        transmission: "auto",
-        picture: "/images/teslaModelX1.jpeg",
-        price: 5000,
-    },
-    {
-        brand: "Tesla",
-        model: "Model 3",
-        HP: 555,
-        typeOfFuel: "energy",
-        transmission: "auto",
-        picture: "/images/teslaModelX1.jpeg",
-        price: 120001,
-    },
-    {
-        brand: "Tesla",
-        model: "Model 3",
-        HP: 555,
-        typeOfFuel: "energy",
-        transmission: "auto",
-        picture: "/images/teslaModelX1.jpeg",
-        price: 50002432,
-    },
-    {
-        brand: "Tesla",
-        model: "Model 3",
-        HP: 555,
-        typeOfFuel: "energy",
-        transmission: "auto",
-        picture: "/images/teslaModelX1.jpeg",
-        price: 120003,
-    },
-    {
-        brand: "Tesla",
-        model: "Model 3",
-        HP: 555,
-        typeOfFuel: "energy",
-        transmission: "auto",
-        picture: "/images/teslaModelX1.jpeg",
-        price: 50004,
-    },
-    {
-        brand: "Tesla",
-        model: "Model 3",
-        HP: 555,
-        typeOfFuel: "energy",
-        transmission: "auto",
-        picture: "/images/teslaModelX1.jpeg",
-        price: 120005,
-    },
-    {
-        brand: "Tesla",
-        model: "Model 3",
-        HP: 555,
-        typeOfFuel: "energy",
-        transmission: "auto",
-        picture: "/images/teslaModelX1.jpeg",
-        price: 50006,
-    },
-    {
-        brand: "Tesla",
-        model: "Model 3",
-        HP: 555,
-        typeOfFuel: "energy",
-        transmission: "auto",
-        picture: "/images/teslaModelX1.jpeg",
-        price: 120007,
-    },
-    {
-        brand: "Tesla",
-        model: "Model 3",
-        HP: 555,
-        typeOfFuel: "energy",
-        transmission: "auto",
-        picture: "/images/teslaModelX1.jpeg",
-        price: 500023,
-    },
-    {
-        brand: "Tesla",
-        model: "Model 3",
-        HP: 555,
-        typeOfFuel: "energy",
-        transmission: "auto",
-        picture: "/images/teslaModelX1.jpeg",
-        price: 1200024,
-    },
-    {
-        brand: "Tesla",
-        model: "Model 3",
-        HP: 555,
-        typeOfFuel: "energy",
-        transmission: "auto",
-        picture: "/images/teslaModelX1.jpeg",
-        price: 500025,
-    },
-    {
-        brand: "Tesla",
-        model: "Model 3",
-        HP: 555,
-        typeOfFuel: "energy",
-        transmission: "auto",
-        picture: "/images/teslaModelX1.jpeg",
-        price: 1200025,
-    },
-    {
-        brand: "Tesla",
-        model: "Model 3",
-        HP: 555,
-        typeOfFuel: "energy",
-        transmission: "auto",
-        picture: "/images/teslaModelX1.jpeg",
-        price: 50002,
-    },
-    {
-        brand: "Tesla",
-        model: "Model 3",
-        HP: 555,
-        typeOfFuel: "energy",
-        transmission: "auto",
-        picture: "/images/teslaModelX1.jpeg",
-        price: 1200012,
-    },
-];
-
-const ExploreMainContent: React.FC = () => {
-    const [currentPage, changeCurrentPage] = useState(1);
+interface CarCard {
+    brand: string | undefined;
+    model: string | undefined;
+    HP: number | null;
+    typeOfFuel: string | undefined;
+    transmission: string | undefined;
+    picture: string | undefined;
+    price: number | null;
+    id: string | undefined;
+}
+const ExploreMainContent = (props: any) => {
+    const data = props.data;
+    const [currentPage, changeCurrentPage] = useState(
+        localStorage.getItem("explorePage")
+            ? Number(localStorage.getItem("explorePage"))
+            : 1
+    );
     const makeArrayWithPagination = (numberOfPages: number) => {
         return Array((numberOfPages % 5) + 1)
             .fill(0)
@@ -184,7 +70,13 @@ const ExploreMainContent: React.FC = () => {
                                                 ? "active"
                                                 : "disabled"
                                         }`}
-                                        onClick={() => changeCurrentPage(page)}
+                                        onClick={() => {
+                                            changeCurrentPage(page);
+                                            localStorage.setItem(
+                                                "explorePage",
+                                                page.toString()
+                                            );
+                                        }}
                                         key={`current page is ${page}`}
                                     >
                                         {page}
