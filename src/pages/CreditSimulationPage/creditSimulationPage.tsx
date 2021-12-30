@@ -11,7 +11,7 @@ const CreditSimulation = () => {
         <div className="creditSimulation__wrapper">
             <Header />
             <CreditSimulationHeader />
-            <CreditSimulationMainContent/>
+            <CreditSimulationMainContent />
             <DownloadApp />
             <NewsLetter />
             <Footer />

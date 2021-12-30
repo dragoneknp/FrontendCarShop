@@ -1,0 +1,741 @@
+{
+    "carCards": [
+        {
+            "Features": [
+                "Airbags",
+                "Immobilizer",
+                "Sport Package",
+                "Streaming Services",
+                "Alloy Wheel",
+                "MP3",
+                "Electric Side Mirror",
+                "Superchargers",
+                "Bluetooth",
+                "Navigation System",
+                "Parking Sensor",
+                "The Key"
+            ],
+            "HP": 555,
+            "Specification": {
+                "Drive": "4 WD",
+                "Engine": "2000",
+                "Exterior Color": "Grey",
+                "Fuel Comsuption": "12",
+                "Fuel Economy": "10",
+                "Fuel type": "Electric",
+                "Interior Color": "Jet Black",
+                "Mileage": "322",
+                "Power": "N/A",
+                "Transmission": "Active",
+                "Year": "2020"
+            },
+            "brand": "Tesla",
+            "description": "lorem ipsum",
+            "id": "hoc123",
+            "model": "Model 3",
+            "picture": "/images/teslaModelX1.jpeg",
+            "pictures": [
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png"
+            ],
+            "price": 5000,
+            "transmission": "auto",
+            "typeOfFuel": "energy",
+            "video": "https://www.youtube.com/embed/Q4VGQPk2Dl8"
+        },
+        {
+            "Features": [
+                "Airbags",
+                "Immobilizer",
+                "Sport Package",
+                "Streaming Services",
+                "Alloy Wheel",
+                "MP3",
+                "Electric Side Mirror",
+                "Superchargers",
+                "Bluetooth",
+                "Navigation System",
+                "Parking Sensor",
+                "The Key"
+            ],
+            "HP": 555,
+            "Specification": {
+                "Drive": "4 WD",
+                "Engine": "2000",
+                "Exterior Color": "Grey",
+                "Fuel Comsuption": "12",
+                "Fuel Economy": "10",
+                "Fuel type": "Electric",
+                "Interior Color": "Jet Black",
+                "Mileage": "322",
+                "Power": "N/A",
+                "Transmission": "Active",
+                "Year": "2020"
+            },
+            "brand": "Tesla",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, explicabo.",
+            "id": "hoc1234",
+            "model": "Model 3",
+            "picture": "/images/teslaModelX1.jpeg",
+            "pictures": [
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png"
+            ],
+            "price": 120001,
+            "transmission": "auto",
+            "typeOfFuel": "energy",
+            "video": "https://www.youtube.com/embed/Q4VGQPk2Dl8"
+        },
+        {
+            "Features": [
+                "Airbags",
+                "Immobilizer",
+                "Sport Package",
+                "Streaming Services",
+                "Alloy Wheel",
+                "MP3",
+                "Electric Side Mirror",
+                "Superchargers",
+                "Bluetooth",
+                "Navigation System",
+                "Parking Sensor",
+                "The Key"
+            ],
+            "HP": 555,
+            "Specification": {
+                "Drive": "4 WD",
+                "Engine": "2000",
+                "Exterior Color": "Grey",
+                "Fuel Comsuption": "12",
+                "Fuel Economy": "10",
+                "Fuel type": "Electric",
+                "Interior Color": "Jet Black",
+                "Mileage": "322",
+                "Power": "N/A",
+                "Transmission": "Active",
+                "Year": "2020"
+            },
+            "brand": "Tesla",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, explicabo.",
+            "id": "hoc12345",
+            "model": "Model 3",
+            "picture": "/images/teslaModelX1.jpeg",
+            "pictures": [
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png"
+            ],
+            "price": 50002432,
+            "transmission": "auto",
+            "typeOfFuel": "energy",
+            "video": "https://www.youtube.com/embed/Q4VGQPk2Dl8"
+        },
+        {
+            "Features": [
+                "Airbags",
+                "Immobilizer",
+                "Sport Package",
+                "Streaming Services",
+                "Alloy Wheel",
+                "MP3",
+                "Electric Side Mirror",
+                "Superchargers",
+                "Bluetooth",
+                "Navigation System",
+                "Parking Sensor",
+                "The Key"
+            ],
+            "HP": 555,
+            "Specification": {
+                "Drive": "4 WD",
+                "Engine": "2000",
+                "Exterior Color": "Grey",
+                "Fuel Comsuption": "12",
+                "Fuel Economy": "10",
+                "Fuel type": "Electric",
+                "Interior Color": "Jet Black",
+                "Mileage": "322",
+                "Power": "N/A",
+                "Transmission": "Active",
+                "Year": "2020"
+            },
+            "brand": "Tesla",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, explicabo.",
+            "id": "hoc123456",
+            "model": "Model 3",
+            "picture": "/images/teslaModelX1.jpeg",
+            "pictures": [
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png"
+            ],
+            "price": 120003,
+            "transmission": "auto",
+            "typeOfFuel": "energy",
+            "video": "https://www.youtube.com/embed/Q4VGQPk2Dl8"
+        },
+        {
+            "Features": [
+                "Airbags",
+                "Immobilizer",
+                "Sport Package",
+                "Streaming Services",
+                "Alloy Wheel",
+                "MP3",
+                "Electric Side Mirror",
+                "Superchargers",
+                "Bluetooth",
+                "Navigation System",
+                "Parking Sensor",
+                "The Key"
+            ],
+            "HP": 555,
+            "Specification": {
+                "Drive": "4 WD",
+                "Engine": "2000",
+                "Exterior Color": "Grey",
+                "Fuel Comsuption": "12",
+                "Fuel Economy": "10",
+                "Fuel type": "Electric",
+                "Interior Color": "Jet Black",
+                "Mileage": "322",
+                "Power": "N/A",
+                "Transmission": "Active",
+                "Year": "2020"
+            },
+            "brand": "Tesla",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, explicabo.",
+            "id": "hoc1234567",
+            "model": "Model 3",
+            "picture": "/images/teslaModelX1.jpeg",
+            "pictures": [
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png"
+            ],
+            "price": 50004,
+            "transmission": "auto",
+            "typeOfFuel": "energy",
+            "video": "https://www.youtube.com/embed/Q4VGQPk2Dl8"
+        },
+        {
+            "Features": [
+                "Airbags",
+                "Immobilizer",
+                "Sport Package",
+                "Streaming Services",
+                "Alloy Wheel",
+                "MP3",
+                "Electric Side Mirror",
+                "Superchargers",
+                "Bluetooth",
+                "Navigation System",
+                "Parking Sensor",
+                "The Key"
+            ],
+            "HP": 555,
+            "Specification": {
+                "Drive": "4 WD",
+                "Engine": "2000",
+                "Exterior Color": "Grey",
+                "Fuel Comsuption": "12",
+                "Fuel Economy": "10",
+                "Fuel type": "Electric",
+                "Interior Color": "Jet Black",
+                "Mileage": "322",
+                "Power": "N/A",
+                "Transmission": "Active",
+                "Year": "2020"
+            },
+            "brand": "Audi",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, explicabo.",
+            "id": "hoc12345678",
+            "model": "R8",
+            "picture": "/images/teslaModelX1.jpeg",
+            "pictures": [
+                "/images/audiR81.jpeg",
+                "/images/audiR83.jpeg",
+                "/images/audiR82.jpeg",
+                "/images/audiR8.jpeg"
+            ],
+            "price": 120005,
+            "transmission": "auto",
+            "typeOfFuel": "energy",
+            "video": "https://www.youtube.com/embed/Q4VGQPk2Dl8"
+        },
+        {
+            "Features": [
+                "Airbags",
+                "Immobilizer",
+                "Sport Package",
+                "Streaming Services",
+                "Alloy Wheel",
+                "MP3",
+                "Electric Side Mirror",
+                "Superchargers",
+                "Bluetooth",
+                "Navigation System",
+                "Parking Sensor",
+                "The Key"
+            ],
+            "HP": 555,
+            "Specification": {
+                "Drive": "4 WD",
+                "Engine": "2000",
+                "Exterior Color": "Grey",
+                "Fuel Comsuption": "12",
+                "Fuel Economy": "10",
+                "Fuel type": "Electric",
+                "Interior Color": "Jet Black",
+                "Mileage": "322",
+                "Power": "N/A",
+                "Transmission": "Active",
+                "Year": "2020"
+            },
+            "brand": "Tesla",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, explicabo.",
+            "id": "hoc123456789",
+            "model": "Model 3",
+            "picture": "/images/teslaModelX1.jpeg",
+            "pictures": [
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png"
+            ],
+            "price": 50006,
+            "transmission": "auto",
+            "typeOfFuel": "energy",
+            "video": "https://www.youtube.com/embed/Q4VGQPk2Dl8"
+        },
+        {
+            "Features": [
+                "Airbags",
+                "Immobilizer",
+                "Sport Package",
+                "Streaming Services",
+                "Alloy Wheel",
+                "MP3",
+                "Electric Side Mirror",
+                "Superchargers",
+                "Bluetooth",
+                "Navigation System",
+                "Parking Sensor",
+                "The Key"
+            ],
+            "HP": 555,
+            "Specification": {
+                "Drive": "4 WD",
+                "Engine": "2000",
+                "Exterior Color": "Grey",
+                "Fuel Comsuption": "12",
+                "Fuel Economy": "10",
+                "Fuel type": "Electric",
+                "Interior Color": "Jet Black",
+                "Mileage": "322",
+                "Power": "N/A",
+                "Transmission": "Active",
+                "Year": "2020"
+            },
+            "brand": "Audi",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, explicabo.",
+            "id": "hoc1234567890",
+            "model": "A3",
+            "picture": "/images/teslaModelX1.jpeg",
+            "pictures": [
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png"
+            ],
+            "price": 120007,
+            "transmission": "auto",
+            "typeOfFuel": "energy",
+            "video": "https://www.youtube.com/embed/Q4VGQPk2Dl8"
+        },
+        {
+            "Features": [
+                "Airbags",
+                "Immobilizer",
+                "Sport Package",
+                "Streaming Services",
+                "Alloy Wheel",
+                "MP3",
+                "Electric Side Mirror",
+                "Superchargers",
+                "Bluetooth",
+                "Navigation System",
+                "Parking Sensor",
+                "The Key"
+            ],
+            "HP": 555,
+            "Specification": {
+                "Drive": "4 WD",
+                "Engine": "2000",
+                "Exterior Color": "Grey",
+                "Fuel Comsuption": "12",
+                "Fuel Economy": "10",
+                "Fuel type": "Electric",
+                "Interior Color": "Jet Black",
+                "Mileage": "322",
+                "Power": "N/A",
+                "Transmission": "Active",
+                "Year": "2020"
+            },
+            "brand": "Tesla",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, explicabo.",
+            "id": "hoc12345678901",
+            "model": "Model 3",
+            "picture": "/images/teslaModelX1.jpeg",
+            "pictures": [
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png"
+            ],
+            "price": 500023,
+            "transmission": "auto",
+            "typeOfFuel": "energy",
+            "video": "https://www.youtube.com/embed/Q4VGQPk2Dl8"
+        },
+        {
+            "Features": [
+                "Airbags",
+                "Immobilizer",
+                "Sport Package",
+                "Streaming Services",
+                "Alloy Wheel",
+                "MP3",
+                "Electric Side Mirror",
+                "Superchargers",
+                "Bluetooth",
+                "Navigation System",
+                "Parking Sensor",
+                "The Key"
+            ],
+            "HP": 555,
+            "Specification": {
+                "Drive": "4 WD",
+                "Engine": "2000",
+                "Exterior Color": "Grey",
+                "Fuel Comsuption": "12",
+                "Fuel Economy": "10",
+                "Fuel type": "Electric",
+                "Interior Color": "Jet Black",
+                "Mileage": "322",
+                "Power": "N/A",
+                "Transmission": "Active",
+                "Year": "2020"
+            },
+            "brand": "Tesla",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, explicabo.",
+            "id": "hoc123456789012",
+            "model": "Model 3",
+            "picture": "/images/teslaModelX1.jpeg",
+            "pictures": [
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png"
+            ],
+            "price": 1200024,
+            "transmission": "auto",
+            "typeOfFuel": "energy",
+            "video": "https://www.youtube.com/embed/Q4VGQPk2Dl8"
+        },
+        {
+            "Features": [
+                "Airbags",
+                "Immobilizer",
+                "Sport Package",
+                "Streaming Services",
+                "Alloy Wheel",
+                "MP3",
+                "Electric Side Mirror",
+                "Superchargers",
+                "Bluetooth",
+                "Navigation System",
+                "Parking Sensor",
+                "The Key"
+            ],
+            "HP": 555,
+            "Specification": {
+                "Drive": "4 WD",
+                "Engine": "2000",
+                "Exterior Color": "Grey",
+                "Fuel Comsuption": "12",
+                "Fuel Economy": "10",
+                "Fuel type": "Electric",
+                "Interior Color": "Jet Black",
+                "Mileage": "322",
+                "Power": "N/A",
+                "Transmission": "Active",
+                "Year": "2020"
+            },
+            "brand": "Tesla",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, explicabo.",
+            "id": "hoc1234567890123",
+            "model": "Model 3",
+            "picture": "/images/teslaModelX1.jpeg",
+            "pictures": [
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png"
+            ],
+            "price": 500025,
+            "transmission": "auto",
+            "typeOfFuel": "energy",
+            "video": "https://www.youtube.com/embed/Q4VGQPk2Dl8"
+        },
+        {
+            "Features": [
+                "Airbags",
+                "Immobilizer",
+                "Sport Package",
+                "Streaming Services",
+                "Alloy Wheel",
+                "MP3",
+                "Electric Side Mirror",
+                "Superchargers",
+                "Bluetooth",
+                "Navigation System",
+                "Parking Sensor",
+                "The Key"
+            ],
+            "HP": 555,
+            "Specification": {
+                "Drive": "4 WD",
+                "Engine": "2000",
+                "Exterior Color": "Grey",
+                "Fuel Comsuption": "12",
+                "Fuel Economy": "10",
+                "Fuel type": "Electric",
+                "Interior Color": "Jet Black",
+                "Mileage": "322",
+                "Power": "N/A",
+                "Transmission": "Active",
+                "Year": "2020"
+            },
+            "brand": "Tesla",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, explicabo.",
+            "id": "hoc12345678901234",
+            "model": "Model 3",
+            "picture": "/images/teslaModelX1.jpeg",
+            "pictures": [
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png"
+            ],
+            "price": 1200025,
+            "transmission": "auto",
+            "typeOfFuel": "energy",
+            "video": "https://www.youtube.com/embed/Q4VGQPk2Dl8"
+        },
+        {
+            "Features": [
+                "Airbags",
+                "Immobilizer",
+                "Sport Package",
+                "Streaming Services",
+                "Alloy Wheel",
+                "MP3",
+                "Electric Side Mirror",
+                "Superchargers",
+                "Bluetooth",
+                "Navigation System",
+                "Parking Sensor",
+                "The Key"
+            ],
+            "HP": 555,
+            "Specification": {
+                "Drive": "4 WD",
+                "Engine": "2000",
+                "Exterior Color": "Grey",
+                "Fuel Comsuption": "12",
+                "Fuel Economy": "10",
+                "Fuel type": "Electric",
+                "Interior Color": "Jet Black",
+                "Mileage": "322",
+                "Power": "N/A",
+                "Transmission": "Active",
+                "Year": "2020"
+            },
+            "brand": "Tesla",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, explicabo.",
+            "id": "hoc123456789012345",
+            "model": "Model 3",
+            "picture": "/images/teslaModelX1.jpeg",
+            "pictures": [
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png",
+                "/images/teslaModel3.png"
+            ],
+            "price": 50002,
+            "transmission": "auto",
+            "typeOfFuel": "energy",
+            "video": "https://www.youtube.com/embed/Q4VGQPk2Dl8"
+        },
+        {
+            "Features": [
+                "Airbags",
+                "Immobilizer",
+                "Sport Package",
+                "Streaming Services",
+                "Alloy Wheel",
+                "MP3",
+                "Electric Side Mirror",
+                "Superchargers",
+                "Bluetooth",
+                "Navigation System",
+                "Parking Sensor",
+                "The Key"
+            ],
+            "HP": 555,
+            "Specification": {
+                "Drive": "4 WD",
+                "Engine": "2000",
+                "Exterior Color": "Grey",
+                "Fuel Comsuption": "12",
+                "Fuel Economy": "10",
+                "Fuel type": "Electric",
+                "Interior Color": "Jet Black",
+                "Mileage": "322",
+                "Power": "N/A",
+                "Transmission": "Active",
+                "Year": "2020"
+            },
+            "brand": "Audi",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, explicabo.",
+            "id": "hoc1234567890123456",
+            "model": "R8",
+            "picture": "/images/teslaModelX1.jpeg",
+            "pictures": [
+                "/images/audiR81.jpeg",
+                "/images/audiR83.jpeg",
+                "/images/audiR82.jpeg",
+                "/images/audiR8.jpeg"
+            ],
+            "price": 1200012,
+            "transmission": "auto",
+            "typeOfFuel": "energy",
+            "video": "https://www.youtube.com/embed/Q4VGQPk2Dl8"
+        }
+    ],
+    "carSelect": {
+        "brands": [null, "Audi", "BMW"],
+        "models": {
+            "Audi": [
+                {
+                    "model": "E-Tron"
+                },
+                {
+                    "model": "R8"
+                },
+                {
+                    "model": "RS6"
+                }
+            ],
+            "BMW": [
+                {
+                    "model": "M5"
+                }
+            ]
+        }
+    },
+    "collectionSlides": {
+        "slide1": {
+            "engineType": "Electric",
+            "gearBox": "automatic",
+            "mileage": 400,
+            "name": "Tesla Model 3",
+            "pictures": [
+                "/images/teslaModel34.jpeg",
+                "/images/teslaModel32.jpeg",
+                "/images/teslaModel3.png",
+                "/images/teslaModel32.jpeg",
+                "/images/teslaModel33.jpeg"
+            ],
+            "productOwner": "Tesla"
+        },
+        "slide2": {
+            "engineType": "Electric",
+            "gearBox": "automatic",
+            "mileage": 500,
+            "name": "Audi E-Tron",
+            "pictures": [
+                "/images/audiETron4.jpeg",
+                "/images/audiETron.jpg",
+                "/images/audiETron2.jpeg",
+                "/images/audiETron1.jpeg",
+                "/images/audiETron3.jpeg"
+            ],
+            "productOwner": "Audi"
+        },
+        "slide3": {
+            "engineType": "DVS",
+            "gearBox": "automatic",
+            "mileage": 500,
+            "name": "Audi R8",
+            "pictures": [
+                "/images/audiR81.jpeg",
+                "/images/audiR83.jpeg",
+                "/images/audiR82.jpeg",
+                "/images/audiR8.jpeg",
+                "/images/audiR84.jpeg"
+            ],
+            "productOwner": "Audi"
+        }
+    },
+    "mainSlideCar": {
+        "Audi E-Tron": {
+            "characteristics": {
+                "engine": 800,
+                "fuelEconomy": 5,
+                "mileage": 400
+            },
+            "linkToPicture": "/images/audiETron.jpg",
+            "model": "Audi E-Tron",
+            "productOwner": "Audi"
+        },
+        "Audi R8": {
+            "characteristics": {
+                "engine": 550,
+                "fuelEconomy": 10,
+                "mileage": 300
+            },
+            "linkToPicture": "/images/audiR8.jpeg",
+            "model": "Audi R8",
+            "productOwner": "Audi"
+        },
+        "Audi RS6": {
+            "characteristics": {
+                "engine": 450,
+                "fuelEconomy": 10,
+                "meliage": 200
+            },
+            "linkToPicture": "/images/audiRs6.jpeg",
+            "model": "Audi RS6",
+            "productOwner": "Audi"
+        },
+        "BMW M5": {
+            "characteristics": {
+                "engine": 450,
+                "fuelEconomy": 10,
+                "mileage": 300
+            },
+            "linkToPicture": "/images/bmwM5.jpeg",
+            "model": "BMW M5",
+            "productOwner": "BMW"
+        }
+    }
+}

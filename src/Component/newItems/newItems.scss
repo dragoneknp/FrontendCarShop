@@ -1,17 +1,17 @@
 @import "../../variables.scss";
-.newItems{
+.newItems {
     padding: 200px 0;
-    background: #E5E5E5;
+    background: #e5e5e5;
 }
-.newItems__header{
+.newItems__header {
     font-size: 48px;
     line-height: 120%;
     letter-spacing: 0.005em;
-    color: #11142D;
+    color: #11142d;
     font-family: $font-bold;
     margin: 0 0 55px 0;
 }
-.newItems__slide_big{
+.newItems__slide_big {
     height: 830px;
     background: url(./teslaModelS.jpeg) center center no-repeat;
     background-size: cover;
@@ -22,192 +22,187 @@
     justify-content: flex-end;
     align-items: center;
 }
-.newItems__slides{
+.newItems__slides {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
-.row1{
+.row1 {
     flex: 0 0 47%;
 }
-.row2{
+.row2 {
     // margin: 0 -8px;
     flex: 1 1 auto;
     display: flex;
     flex-wrap: wrap;
 }
-.newItems__slide_small{
+.newItems__slide_small {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    &:nth-child(1){
+    &:nth-child(1) {
         margin: 0 16px 0 0;
     }
-    &:nth-child(2){
+    &:nth-child(2) {
         margin: 0 0 14px 0;
     }
-    &:nth-child(3){
+    &:nth-child(3) {
         margin: 0px 16px 0 0;
     }
-    
+
     flex: 1 0 48%;
     height: 408px;
     background: url(./teslaModelS.jpeg) center center no-repeat;
     background-size: cover;
     border-radius: 6px;
 }
-.newItems__name_big{
+.newItems__name_big {
     font-size: 39px;
     line-height: 120%;
-    
+
     letter-spacing: 0.005em;
     font-family: $font-bold;
     margin: 0 0 8px 0;
 }
-.newItems__productOwner_big{
+.newItems__productOwner_big {
     font-size: 16px;
     line-height: 120%;
-    
+
     letter-spacing: 0.005em;
     font-family: $font-bold;
     margin: 0 0 8px 0;
 }
-.newItems__price_big{
+.newItems__price_big {
     font-size: 31px;
     line-height: 120%;
-    
+
     letter-spacing: 0.005em;
-    color: #FA3C45;
+    color: #fa3c45;
     font-family: $font-bold;
     margin: 0 0 24px 0;
 }
-.newItems__name_small{
+.newItems__name_small {
     font-size: 24px;
     line-height: 120%;
-    
+
     letter-spacing: 0.005em;
     font-family: $font-bold;
     margin: 0 0 8px 0;
 }
-.newItems__productOwner_small{
+.newItems__productOwner_small {
     font-size: 14px;
     line-height: 130%;
-    
+
     letter-spacing: 0.008em;
     font-family: $font-bold;
     margin: 0 0 8px 0;
 }
-.newItems__price_small{
+.newItems__price_small {
     font-size: 24px;
     line-height: 120%;
-    
+
     letter-spacing: 0.005em;
-    color: #FA3C45;
+    color: #fa3c45;
     font-family: $font-bold;
     margin: 0 0 24px 0;
 }
 @media screen and (max-width: 991px) {
     /* стили для больших планшетов - начало */
-    .newItems{
+    .newItems {
         padding: 100px 0;
-        
     }
-    .newItems__header{
+    .newItems__header {
         text-align: center;
         margin: 0 0 40px 0;
     }
-    .newItems__slide_big{
+    .newItems__slide_big {
         height: 400px;
-        
+
         margin: 0 0 16px 0;
-        
     }
-    .newItems__slides{
+    .newItems__slides {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
     }
-    .row1{
+    .row1 {
         flex: 1 1 auto;
     }
-    
-    .newItems__slide_small{
-        
-        &:nth-child(1){
+
+    .newItems__slide_small {
+        &:nth-child(1) {
             margin: 0 16px 16px 0;
         }
-        &:nth-child(2){
+        &:nth-child(2) {
             margin: 0 0 16px 0;
         }
-        &:nth-child(3){
+        &:nth-child(3) {
             margin: 0px 16px 0 0;
         }
-        
+
         flex: 1 0 48%;
         height: 200px;
-        
     }
-    .newItems__name_big{
+    .newItems__name_big {
         font-size: 39px;
         line-height: 120%;
-        
+
         letter-spacing: 0.005em;
         font-family: $font-bold;
         margin: 0 0 8px 0;
     }
-    .newItems__productOwner_big{
+    .newItems__productOwner_big {
         font-size: 16px;
         line-height: 120%;
-        
+
         letter-spacing: 0.005em;
         font-family: $font-bold;
         margin: 0 0 8px 0;
     }
-    .newItems__price_big{
+    .newItems__price_big {
         font-size: 31px;
         line-height: 120%;
-        
+
         letter-spacing: 0.005em;
-        color: #FA3C45;
+        color: #fa3c45;
         font-family: $font-bold;
         margin: 0 0 24px 0;
     }
-    .newItems__name_small{
+    .newItems__name_small {
         font-size: 24px;
         line-height: 120%;
-        
+
         letter-spacing: 0.005em;
         font-family: $font-bold;
         margin: 0 0 8px 0;
     }
-    .newItems__productOwner_small{
+    .newItems__productOwner_small {
         font-size: 14px;
         line-height: 130%;
-        
+
         letter-spacing: 0.008em;
         font-family: $font-bold;
         margin: 0 0 8px 0;
     }
-    .newItems__price_small{
+    .newItems__price_small {
         font-size: 24px;
         line-height: 120%;
-        
+
         letter-spacing: 0.005em;
-        color: #FA3C45;
+        color: #fa3c45;
         font-family: $font-bold;
         margin: 0 0 24px 0;
     }
-    }
-    
-    @media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 767px) {
     /* стили для средних планшетов - начало */
-    
-    }
-    
-    @media screen and (max-width: 479px) {
+}
+
+@media screen and (max-width: 479px) {
     /* стили для телефонов - начало */
-        .row2{
-            display: none;
-        }
+    .row2 {
+        display: none;
     }
+}

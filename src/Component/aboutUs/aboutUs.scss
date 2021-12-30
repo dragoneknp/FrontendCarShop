@@ -1,64 +1,60 @@
 @import "../../variables.scss";
-.aboutUs__container{
+.aboutUs__container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 200px 0 0 0;
 }
-.aboutUs__picture{
+.aboutUs__picture {
     background: url(./teslaModelX1.jpeg) center center no-repeat;
     background-size: cover;
     height: 544px;
     flex: 0 0 45%;
 }
-.aboutUs__body{
+.aboutUs__body {
     padding: 68px 100px 68px 56px;
     flex: 1 1 auto;
-    
 }
-.aboutUs-body{
-    &__header{
+.aboutUs-body {
+    &__header {
         font-family: $font-bold;
         font-size: 48px;
         line-height: 120%;
         letter-spacing: 0.005em;
-        color: #11142D;
+        color: #11142d;
         margin: 0 0 32px 0;
     }
-    &__description{
+    &__description {
         font-size: 16px;
         line-height: 120%;
         letter-spacing: 0.005em;
-        color: #9A9AB0;
+        color: #9a9ab0;
         margin: 0 0 64px 0;
     }
-    
 }
-.aboutUs-body-specifications
-{
-    
-    &__characteristics{
+.aboutUs-body-specifications {
+    &__characteristics {
         display: flex;
         justify-content: space-between;
-        
+
         flex-direction: row;
-        
+
         // flex-wrap: wrap;
         align-items: center;
     }
-    &__characteristic{
+    &__characteristic {
         text-align: center;
-        &:first-child{
-            color: #FA3C45;
+        &:first-child {
+            color: #fa3c45;
         }
         flex: 0 0 33%;
         font-size: 48px;
         line-height: 120%;
         letter-spacing: 0.005em;
-        color: #9A9AB0;
+        color: #9a9ab0;
         font-family: $font-bold;
     }
-    &__headers{
+    &__headers {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
@@ -66,114 +62,101 @@
         // flex-wrap: wrap;
         align-items: center;
     }
-    &__header{
-        
-        &:first-child{
-            color: #FA3C45;
+    &__header {
+        &:first-child {
+            color: #fa3c45;
         }
         flex: 0 0 33%;
         text-align: center;
-        
+
         font-size: 16px;
         line-height: 120%;
         letter-spacing: 0.005em;
-        color: #9A9AB0;
+        color: #9a9ab0;
         font-family: $font-bold;
     }
 }
 
 @media screen and (max-width: 991px) {
     /* стили для больших планшетов - начало */
-    .aboutUs__container{
-        
+    .aboutUs__container {
         flex-direction: column;
-        
+
         padding: 150px 0 0 0;
     }
-    .aboutUs__picture{
-        
+    .aboutUs__picture {
         height: 300px;
         flex: 1 1 auto;
     }
-    .aboutUs__body{
+    .aboutUs__body {
         padding: 68px 100px 0px 56px;
-        
-        
     }
-    
-    
-    }
-    @media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 767px) {
     /* стили для средних планшетов - начало */
-    .aboutUs__body{
+    .aboutUs__body {
         padding: 68px 10px 68px 10px;
         flex: 1 1 auto;
     }
-    }
-    
-    @media screen and (max-width: 479px) {
+}
+
+@media screen and (max-width: 479px) {
     /* стили для телефонов - начало */
-    .aboutUs__container{
-        
+    .aboutUs__container {
         flex-direction: column;
-        
+
         padding: 150px 0 0 0;
     }
-    .aboutUs__picture{
-        
+    .aboutUs__picture {
         height: 300px;
         flex: 1 1 auto;
     }
-    .aboutUs__body{
+    .aboutUs__body {
         padding: 68px 0px 0px 0px;
-        
-        
     }
-    .aboutUs-body-specifications
-    {
+    .aboutUs-body-specifications {
         display: flex;
         flex-direction: row-reverse;
-        
+
         justify-content: space-between;
-        &__characteristics{
+        &__characteristics {
             flex-direction: column;
             align-items: baseline;
             justify-content: space-between;
         }
-        &__characteristic{
+        &__characteristic {
             text-align: center;
-            &:first-child{
-                color: #FA3C45;
+            &:first-child {
+                color: #fa3c45;
             }
-            
+
             flex: unset;
             font-size: 40px;
             line-height: 120%;
             letter-spacing: 0.005em;
-            color: #9A9AB0;
+            color: #9a9ab0;
             font-family: $font-bold;
         }
-        &__headers{
+        &__headers {
             display: flex;
             justify-content: space-around;
             flex-direction: column;
             margin: 0 40px 0 0;
             align-items: flex-start;
         }
-        &__header{
+        &__header {
             flex: unset;
             font-size: 24px;
         }
     }
-    .aboutUs-body{
-        &__header{
+    .aboutUs-body {
+        &__header {
             font-family: $font-bold;
             font-size: 40px;
             margin: 0 0 24px 0;
         }
-        &__description{
+        &__description {
             margin: 0 0 48px 0;
         }
-        
     }
-    }
+}

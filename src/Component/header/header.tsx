@@ -63,34 +63,55 @@ const Header = () => {
                                         Credit simulation
                                     </Link>
                                 </li>
-                                {/* <li className="menu__item">
-                                    <Link to="/contactUs" className="menu__link">Contact us</Link>
-                                </li> */}
+
                                 <li
                                     className={`menu__item arrow ${
                                         popupOpened ? "_opened" : "_closed"
                                     }`}
                                     onClick={() => changeOpened(!popupOpened)}
                                 >
-                                    <a href="#page" className="menu__link">
+                                    <span
+                                        className="menu__link"
+                                        style={{ cursor: "pointer" }}
+                                    >
                                         Page
-                                    </a>
+                                    </span>
                                     <ul
                                         className={`menu__popup menu-popup ${
                                             popupOpened ? "_opened" : "_closed"
                                         }`}
                                     >
                                         <li className="menu-popup__item">
-                                            First Page
+                                            <Link
+                                                to="/home"
+                                                className="menu__link"
+                                            >
+                                                Home
+                                            </Link>
                                         </li>
                                         <li className="menu-popup__item">
-                                            page2
+                                            <Link
+                                                to="/explore"
+                                                className="menu__link"
+                                            >
+                                                Explore
+                                            </Link>
                                         </li>
                                         <li className="menu-popup__item">
-                                            page3
+                                            <Link
+                                                to="/showroom"
+                                                className="menu__link"
+                                            >
+                                                Showroom
+                                            </Link>
                                         </li>
                                         <li className="menu-popup__item">
-                                            page4
+                                            <Link
+                                                to="/creditSimulation"
+                                                className="menu__link"
+                                            >
+                                                Credit simulation
+                                            </Link>
                                         </li>
                                     </ul>
                                 </li>

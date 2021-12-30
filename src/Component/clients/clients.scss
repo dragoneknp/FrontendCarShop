@@ -1,36 +1,34 @@
 @import "../../variables.scss";
-.clients{
+.clients {
     padding: 64px 0;
 }
-.clients__header{
+.clients__header {
     font-size: 24px;
     line-height: 120%;
     text-align: center;
     letter-spacing: 0.005em;
-    color: #11142D;
+    color: #11142d;
     font-family: $font-bold;
     margin: 0 0 40px 0;
 }
-.clients__brands{
+.clients__brands {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 @media screen and (max-width: 991px) {
     /* стили для больших планшетов - начало */
-    
-    }
-    
-    @media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 767px) {
     /* стили для средних планшетов - начало */
-    
-    }
-    
-    @media screen and (max-width: 479px) {
+}
+
+@media screen and (max-width: 479px) {
     /* стили для телефонов - начало */
-    .clients__brands{
+    .clients__brands {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    }
+}

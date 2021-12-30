@@ -10,7 +10,7 @@ const Search = (props) => {
     const [brandPopupVisibility, changeBrandPopupVisibility] = useState(false);
     const [currentBrand, changeCurrentBrand] = useState("");
     const [currentModel, changeCurrentModel] = useState("");
-    
+
     useEffect(() => {
         props.getCarSelectData();
         // eslint-disable-next-line
@@ -53,7 +53,9 @@ const Search = (props) => {
                                     {props.brands ? (
                                         props.brands.map((brand) => (
                                             <li
-                                                key={brand}
+                                                key={`${brand}_${
+                                                    Math.random() * 10000
+                                                }`}
                                                 className="search-menu__item"
                                                 onClick={(event) => {
                                                     changeCurrentBrand(
@@ -100,7 +102,9 @@ const Search = (props) => {
                                         props.models[currentBrand].map(
                                             ({ model }) => (
                                                 <li
-                                                    key={model}
+                                                    key={`${model}_${
+                                                        Math.random() * 10000
+                                                    }`}
                                                     className="search-menu__item"
                                                     onClick={(event) => {
                                                         changeCurrentModel(

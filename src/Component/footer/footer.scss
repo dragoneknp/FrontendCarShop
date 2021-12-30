@@ -1,20 +1,20 @@
 @import "../../variables.scss";
-.footer{
+.footer {
     padding: 70px 0 60px 0;
-    
+
     height: 500px;
-    background: #C5010A;
+    background: #c5010a;
 }
-.footer__container{
+.footer__container {
     height: 100%;
     display: flex;
     justify-content: space-between;
 }
-.arrow{
+.arrow {
     position: relative;
-    
-    &._closed{
-        &:after{
+
+    &._closed {
+        &:after {
             content: url(./arrow.svg);
             position: absolute;
             width: 16px;
@@ -25,8 +25,8 @@
             cursor: pointer;
         }
     }
-    &._opened{
-        &:after{
+    &._opened {
+        &:after {
             content: url(./arrow.svg);
             transform: rotate(180deg);
             transition: 0.4s ease;
@@ -38,68 +38,63 @@
             cursor: pointer;
         }
     }
-    
-    
-
 }
-.footer-body{
+.footer-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    &__logo{
+    &__logo {
         flex: 0 0 20%;
         font-family: $font-bold;
         font-size: 24px;
     }
-    &__description{
+    &__description {
         flex: 1 1 auto;
         width: 280px;
     }
-    &__copyright{
+    &__copyright {
         flex: 0 0 10%;
     }
 }
-.footer-menu__label{
+.footer-menu__label {
     font-family: $font-bold;
     font-size: 16px;
 }
-.footer-menu__link{
+.footer-menu__link {
     color: #fff;
 }
-.footer__body{
+.footer__body {
     flex: 0 0 37.5%;
 }
-.footer__company{
+.footer__company {
     height: 100%;
     flex: 0 0 15%;
-    
 }
-.footer__menu{
-    height: 100%;    
+.footer__menu {
+    height: 100%;
 }
-.footer-menu__list{
+.footer-menu__list {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.footer__list{
+.footer__list {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.footer__social{
+.footer__social {
     flex: 0 0 15%;
 }
-.footer__contact{
+.footer__contact {
     flex: 1 1 auto;
 }
 
 #address {
-    
-    &::before{
+    &::before {
         content: url(./locationIcon.svg);
         width: 24px;
         height: 24px;
@@ -107,9 +102,8 @@
         left: 0px;
     }
 }
-#phoneNumber{
-    
-    &::before{
+#phoneNumber {
+    &::before {
         content: url(./phoneIcon.svg);
         width: 24px;
         height: 24px;
@@ -117,35 +111,33 @@
         left: 0px;
     }
 }
-#mail{
-    
-    &::before{
+#mail {
+    &::before {
         content: url(./mailIcon.svg);
-        
+
         width: 24px;
         height: 24px;
         position: absolute;
         left: 0px;
-    } 
+    }
 }
-.contactMenu__item{
+.contactMenu__item {
     margin: 20px 0;
     & address {
         cursor: pointer;
         color: #fff;
-        padding: 0 0 0 27px;    
+        padding: 0 0 0 27px;
     }
     & a {
         color: #fff;
         padding: 0 0 0 27px;
     }
     position: relative;
-    
 }
-.footer__contactMenu{
+.footer__contactMenu {
     height: 100%;
 }
-.contactMenu{
+.contactMenu {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -154,144 +146,134 @@
 
 @media screen and (max-width: 991px) {
     /* стили для больших планшетов - начало */
-    
-    .footer__company{
+
+    .footer__company {
         height: unset;
         flex: 0 0 15%;
-        
     }
-    .footer{
+    .footer {
         padding: 50px 0 40px 0;
         // height: 400px;
         height: 100%;
-        background: #C5010A;
+        background: #c5010a;
     }
-    
-    .footer-body{
-        &__description{
-            padding: 0 15px 0 0;}
+
+    .footer-body {
+        &__description {
+            padding: 0 15px 0 0;
+        }
     }
-    .footer__container{
+    .footer__container {
         height: 100%;
         display: flex;
         justify-content: space-between;
-        
     }
-    .footer__container{
+    .footer__container {
         display: flex;
         justify-content: space-between;
     }
-    .footer-body{
+    .footer-body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        &__logo{
+        &__logo {
             flex: 0 0 20%;
             font-family: $font-bold;
             font-size: 24px;
         }
-        &__description{
+        &__description {
             flex: 1 1 auto;
             // width: 280px;
             width: 200px;
         }
-        
     }
-    .footer{
-        &__body{
+    .footer {
+        &__body {
             flex: none;
         }
-        &__company{
+        &__company {
             flex: none;
         }
-        &__social{
+        &__social {
             flex: none;
         }
-        &__contact{
+        &__contact {
             flex: none;
         }
     }
-    
-    }
-    
-    @media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 767px) {
     /* стили для средних планшетов - начало */
-    .footer{
+    .footer {
         padding: 50px 0 40px 0;
         // height: 400px;
         height: 100%;
-        background: #C5010A;
+        background: #c5010a;
     }
-    
-    .footer-body{
-        &__description{
-            padding: 0 15px 0 0;}
+
+    .footer-body {
+        &__description {
+            padding: 0 15px 0 0;
+        }
     }
-    .footer__container{
+    .footer__container {
         height: 100%;
         display: flex;
-        
+
         flex-direction: column;
-        
     }
-    .footer-menu__list{
-        &._closed{
+    .footer-menu__list {
+        &._closed {
             // visibility: hidden;
             // opacity: 0;
             display: none;
-            
         }
-        &._opened{
+        &._opened {
             // visibility: visible;
             // opacity: 1;
-            
         }
     }
-    .footer{
-        &__body{
+    .footer {
+        &__body {
             margin: 0 0 16px 0;
         }
-        &__company{
+        &__company {
             margin: 0 0 16px 0;
         }
-        &__social{
+        &__social {
             margin: 0 0 20px 0;
         }
-        &__contact{
-
+        &__contact {
         }
     }
-    .footer-body{
-        
-        &__logo{
+    .footer-body {
+        &__logo {
             flex: 0 0 20%;
             font-family: $font-bold;
             font-size: 24px;
             margin: 0 0 16px 0;
         }
-        &__description{
+        &__description {
             flex: 1 1 auto;
             width: 280px;
             margin: 0 0 16px 0;
         }
-        &__copyright{
+        &__copyright {
             flex: 0 0 10%;
         }
     }
-    .footer-menu__item{
+    .footer-menu__item {
         margin: 0 0 16px 0;
-        &:first-child{
+        &:first-child {
             margin: 16px 0 16px 0;
         }
-        &:last-child{
+        &:last-child {
             margin: 0 0 0 0;
         }
     }
-    }
-    
+}
 
-    
-    @media screen and (max-width: 479px) {
+@media screen and (max-width: 479px) {
     /* стили для телефонов - начало */
-    
-    }
+}

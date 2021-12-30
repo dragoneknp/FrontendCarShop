@@ -1,51 +1,52 @@
 @import "../../variables.scss";
-.features{
-    background: #C5010A;
+.features {
+    background: #c5010a;
     padding: 136px 0;
 }
-.features__container{
+.features__container {
     display: flex;
 }
-.features__body{
+.features__body {
     flex: 1 1 auto;
 }
-.features__picture{
+.features__picture {
     background: url(./teslaModelX1.jpeg) center center no-repeat;
     background-size: cover;
     height: 608px;
     margin: 0 0 0 140px;
     flex: 0 0 47%;
 }
-.features__header{
+.features__header {
     font-size: 48px;
     line-height: 120%;
     letter-spacing: 0.005em;
-    color: #FFFFFF;
+    color: #ffffff;
     margin: 0 0 32px 0;
 }
-.features__description{
+.features__description {
     font-size: 16px;
     line-height: 150%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #ffffff;
     margin: 0 0 64px 0;
 }
-.features__list{
+.features__list {
     display: flex;
     flex-direction: column;
     margin: -25px 0;
 }
-.features-listItem{
-    background: url("./IconPlaceholder.svg") no-repeat ;
+.features-listItem {
+    background: url("./IconPlaceholder.svg") no-repeat;
     padding: 0 0 0 72px;
-    &__header{
+    &__header {
         font-size: 24px;
         line-height: 120%;
         letter-spacing: 0.005em;
         font-family: $font-bold;
         margin: 0 0 16px 0;
     }
-    &__description{
+    &__description {
         font-size: 16px;
         line-height: 120%;
         letter-spacing: 0.005em;
@@ -54,66 +55,64 @@
 }
 @media screen and (max-width: 991px) {
     /* стили для больших планшетов - начало */
-    .features{
+    .features {
         padding: 88px 0;
     }
-    .features__container{
+    .features__container {
         display: flex;
         flex-direction: column-reverse;
     }
-    .features__body{
+    .features__body {
         flex: 1 1 auto;
     }
-    .features__picture{
-        
+    .features__picture {
         height: 300px;
         margin: 0 0 40px 0;
         flex: 1 1 auto;
     }
-    .features__header{
+    .features__header {
         font-size: 48px;
         line-height: 120%;
         letter-spacing: 0.005em;
-        color: #FFFFFF;
+        color: #ffffff;
         margin: 0 0 32px 0;
     }
-    .features__description{
+    .features__description {
         font-size: 16px;
         line-height: 150%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: #FFFFFF;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        color: #ffffff;
         margin: 0 0 64px 0;
     }
-    .features__list{
+    .features__list {
         display: flex;
         flex-direction: column;
         margin: -25px 0;
     }
-    .features-listItem{
-        background: url("./IconPlaceholder.svg") no-repeat ;
+    .features-listItem {
+        background: url("./IconPlaceholder.svg") no-repeat;
         padding: 0 0 0 72px;
-        &__header{
+        &__header {
             font-size: 24px;
             line-height: 120%;
             letter-spacing: 0.005em;
             font-family: $font-bold;
             margin: 0 0 16px 0;
         }
-        &__description{
+        &__description {
             font-size: 16px;
             line-height: 120%;
             letter-spacing: 0.005em;
         }
         margin: 25px 0;
     }
-    }
-    
-    @media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 767px) {
     /* стили для средних планшетов - начало */
-    
-    }
-    
-    @media screen and (max-width: 479px) {
+}
+
+@media screen and (max-width: 479px) {
     /* стили для телефонов - начало */
-    
-    }
+}

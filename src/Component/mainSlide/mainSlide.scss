@@ -1,55 +1,54 @@
 @import "../../variables.scss";
-.mainSlide{
+.mainSlide {
     padding: 20px 0 0 0;
     transition: 0.4s ease;
     @include adaptiv-value("padding-bottom", 120, 100);
 }
-.mainSlide-body__productOwner{
+.mainSlide-body__productOwner {
     margin: 0 0 16px 0;
     font-size: 24px;
     line-height: 120%;
     letter-spacing: 0.005em;
 }
-.mainSlide-body__label{
+.mainSlide-body__buyNowButton a {
+    color: #fff;
+}
+.mainSlide-body__label {
     font-size: 62px;
     line-height: 120%;
     font-family: $font-bold;
     letter-spacing: 0.003em;
     margin: 0 0 60px 0;
 }
-.mainSlide-body-specifications__header{
+.mainSlide-body-specifications__header {
     font-size: 16px;
     line-height: 120%;
     font-family: $font-bold;
     margin: 0 0 20px 0;
     letter-spacing: 0.005em;
 }
-.mainSlide-body-specifications{
+.mainSlide-body-specifications {
     display: flex;
-    
 }
-.mainSlide-body-specifications__spec{
+.mainSlide-body-specifications__spec {
     font-size: 16px;
     line-height: 120%;
     font-family: $font-bold;
     letter-spacing: 0.005em;
-    color: #FA3C45;
+    color: #fa3c45;
 }
-.mainSlide-body-specifications__item{
+.mainSlide-body-specifications__item {
     margin: 0 28px;
-    &:first-child{
+    &:first-child {
         margin: 0 28px 0 0;
     }
-    &:last-child{
+    &:last-child {
         margin: 0 0 0 28px;
     }
-    
 }
-.mainSlide-body__buyNowButton{
-    
+.mainSlide-body__buyNowButton {
     width: 128px;
     padding: 18px 24px;
-    
+
     margin: 96px 0 0 0;
-    
 }

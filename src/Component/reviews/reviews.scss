@@ -1,22 +1,22 @@
 @import "../../variables.scss";
-.reviews{
+.reviews {
     padding: 0 0 200px 0;
-    background: #E5E5E5;
+    background: #e5e5e5;
 }
 .reviews__container {
     display: flex;
     flex-direction: column;
 }
-.reviews-header{
+.reviews-header {
     text-align: center;
-    &__label{
+    &__label {
         font-size: 48px;
         line-height: 120%;
         letter-spacing: 0.005em;
-        color: #2E2E2E;
+        color: #2e2e2e;
         font-family: $font-bold;
     }
-    &__description{
+    &__description {
         font-size: 16px;
         line-height: 120%;
         letter-spacing: 0.005em;
@@ -24,95 +24,91 @@
         margin: 32px 0 56px 0;
     }
 }
-.reviews__body{
+.reviews__body {
     display: flex;
 }
-.reviews__picture{
+.reviews__picture {
     background: url(./teslaModelS.jpeg) center center no-repeat;
     background-size: cover;
     flex: 0 0 35%;
     height: 448px;
 }
-.reviews__description{
+.reviews__description {
     flex: 1 1 auto;
     padding: 84px 92px 96px 92px;
     background: #fff;
 }
-.reviews-description{
+.reviews-description {
     text-align: center;
-    &__label{
+    &__label {
         font-size: 31px;
         line-height: 120%;
         letter-spacing: 0.005em;
-        color: #11142D;
+        color: #11142d;
         font-family: $font-bold;
     }
-    &__comment{
+    &__comment {
         margin: 32px 0 40px 0;
         font-size: 16px;
         line-height: 120%;
         letter-spacing: 0.005em;
-        color: #92929D;
+        color: #92929d;
     }
-    &-author{
-        &__name{
+    &-author {
+        &__name {
             font-size: 16px;
             line-height: 120%;
             letter-spacing: 0.005em;
-            color: #FA3C45;
+            color: #fa3c45;
             font-family: $font-bold;
             margin: 0 0 8px 0;
         }
-        &__post{
+        &__post {
             font-size: 14px;
             line-height: 130%;
             letter-spacing: 0.008em;
-            color: #92929D;
+            color: #92929d;
         }
     }
 }
 
 @media screen and (max-width: 991px) {
     /* стили для больших планшетов - начало */
-    .reviews{
+    .reviews {
         padding: 0 0 100px 0;
     }
     .reviews__container {
         display: flex;
         flex-direction: column;
     }
-    
-    .reviews__body{
+
+    .reviews__body {
         flex-direction: column;
     }
-    .reviews__picture{
+    .reviews__picture {
         flex: 1 1 auto;
         height: 300px;
     }
-    .reviews__description{
+    .reviews__description {
         margin: 16px 0 0 0;
-        padding: 84px 92px 96px 92px;   
+        padding: 84px 92px 96px 92px;
     }
-    
-    }
-    
-    @media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 767px) {
     /* стили для средних планшетов - начало */
-    
-    }
-    
-    @media screen and (max-width: 479px) {
+}
+
+@media screen and (max-width: 479px) {
     /* стили для телефонов - начало */
-    .reviews__description{
+    .reviews__description {
         margin: 16px 0 0 0;
-        padding: 10px 5px 10px 5px;   
+        padding: 10px 5px 10px 5px;
     }
-    .reviews-header{
+    .reviews-header {
         text-align: center;
-        &__label{
+        &__label {
             font-size: 40px;
-            
         }
-       
     }
-    }
+}

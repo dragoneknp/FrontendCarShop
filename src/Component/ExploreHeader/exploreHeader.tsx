@@ -1,5 +1,5 @@
-import React from 'react';
-import './exploreHeader.scss';
+import React from "react";
+import "./exploreHeader.scss";
 const ExploreHeader = () => {
     return (
         <div className="exploreHeader">
@@ -7,5 +7,6 @@ const ExploreHeader = () => {
                 <h1 className="exploreHeader__title">Explore</h1>
             </div>
         </div>
-    )};
+    );
+};
 export default ExploreHeader;
