@@ -51,7 +51,9 @@ const DetailMainContent = (props: {
                             {data.pictures?.map((item) => (
                                 <div
                                     className="detailMainContent-body__picture"
-                                    key={`${item}_${data.id}`}
+                                    key={`${item}_${data.id}_${
+                                        Math.random() * 10000
+                                    }`}
                                 >
                                     <img
                                         src={item}

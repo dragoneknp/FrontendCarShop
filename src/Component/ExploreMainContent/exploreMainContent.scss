@@ -188,6 +188,14 @@
         color: #fff;
     }
 }
+.exploreMainContent__input {
+    transition: 0.4s ease;
+    &:focus {
+        transition: 0.4s ease;
+
+        border-color: #5178c5;
+    }
+}
 .exploreMainContent__pagination {
     margin: 20px 0 5px 0;
 }

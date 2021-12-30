@@ -29,6 +29,12 @@
     border-radius: 8px;
     padding: 20px 16px;
     margin: 0 0 20px 0;
+    transition: 0.4s ease;
+    &:focus {
+        transition: 0.4s ease;
+
+        border-color: #5178c5;
+    }
 }
 .loanCalculator-form__header {
     margin: 0 0 20px 0;

@@ -2,6 +2,7 @@
 .contactDealer {
     padding: 48px;
     background: #ffffff;
+    position: relative;
     border-radius: 8px;
 }
 .contactDealer__input {
@@ -11,6 +12,12 @@
     border-radius: 8px;
     padding: 20px 16px;
     margin: 12px 0 12px 0;
+    transition: 0.4s ease;
+    &:focus {
+        transition: 0.4s ease;
+
+        border-color: #5178c5;
+    }
 }
 .contactDealer__header {
     font-size: 39px;
@@ -25,4 +32,14 @@
 }
 .contactDealer__button {
     padding: 12px 24px;
+}
+.contactDealer__error {
+    margin: 24px 0 0 0;
+    font-size: 24px;
+    color: rgb(241, 24, 24);
+}
+.completeImg {
+    // position: absolute;
+    // right: 50%;
+    margin: 0 0 48px 0;
 }

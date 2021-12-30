@@ -1,158 +1,147 @@
 @import "../../variables.scss";
-.newsLetter{
-    background: #E5E5E5;
+.newsLetter {
+    background: #e5e5e5;
     padding: 120px 0 100px 0;
 }
 
-
-.newsLetter{
-    &__body{
+.newsLetter__error {
+    margin: 24px 0 0 0;
+    font-size: 24px;
+    color: rgb(241, 24, 24);
+}
+.newsLetter {
+    &__body {
         padding: 0 200px 0 200px;
     }
     text-align: center;
-    &__header{
+    &__header {
         font-size: 48px;
         line-height: 120%;
         text-align: center;
         letter-spacing: 0.005em;
-        color: #11142D;
+        color: #11142d;
         font-family: $font-bold;
     }
-    &__description{
+    &__description {
         font-size: 16px;
         line-height: 120%;
         letter-spacing: 0.005em;
-        color: #92929D;
+        color: #92929d;
         margin: 24px 0 56px 0;
     }
 }
-.newsLetter__form{
+.newsLetter__form {
     text-align: left;
 }
 
-.newsLetter-form{
-    
+.newsLetter-form {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    &__inputs{
-        &:first-child{
+    &__inputs {
+        &:first-child {
             margin: 0 16px 0 0;
         }
-        
     }
-    &__label{
+    &__label {
         font-size: 16px;
         line-height: 120%;
         letter-spacing: 0.005em;
-        color: #11142D;   
-        font-family: $font-semiBold;   
-        margin: 0 0 20px 0; 
+        color: #11142d;
+        font-family: $font-semiBold;
+        margin: 0 0 20px 0;
     }
-    &__input{   
+    &__input {
         width: 296px;
         font-size: 16px;
         line-height: 120%;
-        letter-spacing: 0.005em;        
-        color: #11142D;       
+        letter-spacing: 0.005em;
+        color: #11142d;
         padding: 16px 10px 21px 16px;
-        border: 1px solid #ECF2FE;
+        border: 1px solid #ecf2fe;
         box-sizing: border-box;
         border-radius: 8px;
         transition: border 0.4s ease;
-        &:focus{
+        &:focus {
             border: 1px solid #5178c5;
         }
-
     }
-    &__button{
+    &__button {
         padding: 19px 26px;
         margin: 0 0 0 16px;
         height: 56px;
-        &:focus{
+        &:focus {
             border: 1px solid #5178c5;
         }
     }
 }
 @media screen and (max-width: 991px) {
     /* стили для больших планшетов - начало */
-    .newsLetter{
-        
+    .newsLetter {
         padding: 80px 20px 60px 20px;
     }
-    .newsLetter{
-        &__body{
+    .newsLetter {
+        &__body {
             padding: 0;
         }
         text-align: center;
-        
     }
-    
-    
-    
-    }
-    
-    @media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 767px) {
     /* стили для средних планшетов - начало */
-    .newsLetter{
-        
+    .newsLetter {
         padding: 80px 0 80px 0;
     }
-    
-    
-    .newsLetter{
-        &__body{
+
+    .newsLetter {
+        &__body {
             padding: 0 50px 0 50px;
         }
-        &__description{
+        &__description {
             margin: 24px 0 40px 0;
         }
     }
-    
-    
-    .newsLetter-form{
-        
+
+    .newsLetter-form {
         display: flex;
-        
+
         flex-direction: column;
         align-items: center;
-        &__inputs{
-            &:first-child{
+        &__inputs {
+            &:first-child {
                 margin: 0 0 20px 0;
             }
             width: 100%;
             margin: 0 0 20px 0;
-            
-            
         }
-        &__label{
+        &__label {
             font-size: 16px;
             line-height: 120%;
             letter-spacing: 0.005em;
-            color: #11142D;   
-            font-family: $font-semiBold;   
-            margin: 0 0 20px 0; 
+            color: #11142d;
+            font-family: $font-semiBold;
+            margin: 0 0 20px 0;
         }
-        &__input{   
+        &__input {
             width: 100%;
         }
-        &__button{
+        &__button {
             padding: 19px 26px;
             margin: 0 0 0 0;
             height: 56px;
         }
     }
-    }
-    
-    @media screen and (max-width: 479px) {
+}
+
+@media screen and (max-width: 479px) {
     /* стили для телефонов - начало */
-    .newsLetter{
-        &__body{
+    .newsLetter {
+        &__body {
             padding: 0 0 0 0;
         }
-        &__header{
+        &__header {
             font-size: 40px;
         }
-        
     }
-    }
+}
