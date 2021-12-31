@@ -2,6 +2,7 @@ import React, { createRef, useEffect, useRef, useState } from "react";
 import "./exploreMainContent.scss";
 import MakeExploreMainContentCards from "../ExploreMainContentCards/ExploreMainContentCards";
 import Advertisment from "../Advertisment/advertisment";
+import { Link } from "react-router-dom";
 interface CarCard {
     brand: string | undefined;
     model: string | undefined;
@@ -85,7 +86,6 @@ const ExploreMainContent = (props: any) => {
                             We’ve found {newData.length} results
                         </div>
                         <div className="exploreMainContent-body__results">
-                            {/* {MakeExploreMainContentCards(data, currentPage)} */}
                             {MakeExploreMainContentCards(newData, currentPage)}
                         </div>
                         <div className="exploreMainContent__pagination">
@@ -175,7 +175,12 @@ const ExploreMainContent = (props: any) => {
                                 Need more Discusion?
                             </div>
                             <button className="exploreMainContent-body-contactUs__contactUsButton">
-                                Contact Us
+                                <Link
+                                    to="/creditSimulation"
+                                    className="exploreMainContent-body-contactUs__contactUsLink"
+                                >
+                                    Contact Us
+                                </Link>
                             </button>
                         </div>
                     </aside>
