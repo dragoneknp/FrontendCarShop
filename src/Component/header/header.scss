@@ -206,4 +206,13 @@
         bottom: 50%;
         transform: translate(0px, 50%) rotate(45deg);
     }
+    .menu__item span {
+        display: none;
+    }
+    .menu__popup {
+        display: none;
+    }
+    .arrow {
+        display: none;
+    }
 }
