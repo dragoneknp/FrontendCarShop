@@ -47,12 +47,12 @@
     font-family: $font-bold;
     font-size: 24px;
     line-height: 120%;
-    flex: 0 0 224px / $maxWidthContainer * 100%;
+    flex: 0 0 calc(224px / $maxWidthContainer * 100%);
     z-index: 5;
 }
 .header__actions {
     text-align: right;
-    flex: 0 0 400px / $maxWidthContainer * 100%;
+    flex: 0 0 calc(400px / $maxWidthContainer * 100%);
 }
 .header__menu {
     flex: 1 1 auto;
