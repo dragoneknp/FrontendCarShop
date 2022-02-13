@@ -13,5 +13,7 @@
 <li>Swiper</li>
 <li>Scss</li>
 <li>Axios</li>
+<li>Adaptive Design</li>
+<li>BEM</li>
 </ul>
 
